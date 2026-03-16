@@ -1,5 +1,9 @@
 class Solution {
     public String longestPalindrome(String s) {
+        if(s.length()<2){
+            return s;
+
+        }
         String LPS="";
         for(int i=0;i<s.length();i++){
         int low=i;
